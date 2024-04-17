@@ -5,7 +5,7 @@ const Index = () => {
   return (
     <ChakraProvider>
       <Container maxW="container.xl">
-        <Flex direction="column" align="center" my={10}>
+        <Flex direction={{ base: "column", md: "column" }} align="center" my={10}>
           <Heading as="h1" size="xl" mb={6}>
             PayWise
           </Heading>
@@ -35,7 +35,7 @@ const Index = () => {
             <Heading as="h2" size="lg" mb={4}>
               Connect With Us
             </Heading>
-            <Stack direction="row" spacing={4}>
+            <Stack direction={{ base: "column", md: "row" }} spacing={4}>
               <Link href="#" isExternal>
                 Facebook
               </Link>
