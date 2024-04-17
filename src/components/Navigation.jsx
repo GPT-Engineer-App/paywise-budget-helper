@@ -5,7 +5,7 @@ import { Box } from "@chakra-ui/react";
 function Navigation() {
   return (
     <Box as="nav" p={4}>
-      <Link to="/">Index</Link> | <Link to="/home">Home</Link>
+      <Link to="/">Index</Link> | <Link to="/home">Home</Link> | <Link to="/my-budget">My Budget</Link>
     </Box>
   );
 }
